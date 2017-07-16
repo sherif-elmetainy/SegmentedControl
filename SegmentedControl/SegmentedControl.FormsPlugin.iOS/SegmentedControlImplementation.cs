@@ -108,9 +108,9 @@ namespace SegmentedControl.FormsPlugin.iOS
 			{
 				base.Dispose(disposing);
 			}
-			catch (Exception ex)
+			catch
 			{
-				return;
+				// ignored
 			}
 		}
 
