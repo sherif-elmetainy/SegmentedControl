@@ -117,7 +117,7 @@ namespace SegmentedControl.FormsPlugin.iOS
         /// <summary>
         /// Used for registration with dependency service
         /// </summary>
-        public static void Init()
+        public new static void Init()
 		{
 			var temp = DateTime.Now;
 		}
